@@ -1,4 +1,7 @@
-0)     Welcome                  
+Compile:
+    gcc FileIO.c -o FileIO
+
+
 1)     Introduction       
 2)     File IO 
 3)     Processes 
