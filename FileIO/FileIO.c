@@ -24,6 +24,7 @@ void writefile()
     printf("Enter a number: ");
     scanf("%d", &num);
 
+    // fprintf write it as a string vs fwrite writes as a byte
     fprintf(fptr, "%d", num);
     fclose(fptr);
 }
